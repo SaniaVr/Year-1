@@ -63,7 +63,6 @@
     outline-color: #C7F464;
   }
   
-  /* for people that will scream  ":has() is not supported everywhere !!" */
   @supports not (selector(:has(*))) {
     .gallery::after {
       display: none;
